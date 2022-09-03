@@ -1,0 +1,146 @@
+/* The font size with the :root and body settings is now 1rem to 10px */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+html, body {
+  height: 100%;
+}
+
+input, label {
+  display: block;
+  margin: .2rem;
+}
+
+.background-and-sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.side-background {
+  background-image: url("images/lofoten-winter-dreams-jr-photography.jpg");
+  height: 100%;
+  min-width: 40rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.odin-logo-background {
+  opacity: 0.6;
+  background-color: rgb(3, 0, 0);
+  width: 40rem;
+  height: 18vh;
+  position: absolute;
+  top: 20rem;
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.odin-logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-credits-container {
+  position: absolute;
+  top: 78rem;
+  width: 40rem;
+}
+
+.photo-credits {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.photo-credits a {
+  color: white;
+}
+
+.sign-up-and-account-creation {
+  width: 58rem;
+  padding-right: 14rem;
+}
+
+.text-1, .text-2, .text-3{
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin-top: 4rem;
+  margin-left: 3.5rem;
+}
+
+.text-3 {
+  margin-top: 8rem;
+}
+
+.first-row, .second-row, .third-row, .fourth-row {
+  display: flex;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.first-row-1, .second-row-1, .third-row-1 {
+  margin-left: 3.5rem;
+  margin-right: 4.5rem;
+}
+
+input {
+  margin-top: 1rem;
+  border: #E5E7EB solid 0.15rem;
+  border-radius: 0.1rem;
+}
+
+/* javascript needed for validation
+input.error:invalid {
+  border: red solid 0.15rem;
+}
+*/
+
+input:focus {
+  box-shadow: 0 0 0.2rem 0.1rem rgb(3, 157, 184);
+  outline: none;
+}
+
+.create-account-button {
+  color: white;
+  border: rgb(102, 190, 190) solid 0.2rem;
+  background-color: rgb(58, 226, 226);
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  margin-left: 3.5rem;
+  margin-top: 2rem;
+}
+
+.create-account-button:active {
+  box-shadow: 0 0 0.5rem rgb(123, 9, 216);
+}
+
+.have-account {
+  margin-top: 2rem;
+  margin-left: 3.5rem;
+  font-size: 1rem;
+}
+
+.have-account a {
+  color: aqua;
+  text-decoration: none;
+}
